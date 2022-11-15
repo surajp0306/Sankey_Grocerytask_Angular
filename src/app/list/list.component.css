@@ -1,0 +1,37 @@
+.main-container{
+    padding-bottom: 2%;
+    border-radius: 2%;
+    padding-left: 30%;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 27%;
+    /* margin-top: 10%; */
+    background-color: aqua;
+}
+.add{
+    margin-left: 63%;
+    /* margin-bottom: 70%; */
+}
+h2{
+        color: aliceblue;
+        padding-left: 2%;
+        background-color: blue;
+    
+}
+.empList{  
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.input-table{
+    background-color: aqua;
+}
+.sp{
+    background-color: rgb(250, 248, 161);
+}

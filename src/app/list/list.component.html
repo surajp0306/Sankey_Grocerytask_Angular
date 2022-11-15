@@ -1,0 +1,30 @@
+<div class="sp">
+    <div class="input table">
+        <table>
+            
+            <td><h3>Item name</h3><input type="text" placeholder="Enter a Item name" #task/></td>
+            <br>
+            <td><h3>Quantity</h3><input type="text" placeholder="Enter Quantity" #mask/></td>
+            <br>
+            <td><h3>Image URL</h3><input type="text" placeholder="Enter a Image URL" #rask/></td>
+                
+        </table>
+    </div>
+        <!-- <img src={item.image} alt={item.image} width="200px"/> -->
+
+    <button class="add"  (click)="addTask(task.value,mask.value,rask.value)">Add</button>
+    <!-- <button (click)="addTask(mask.value)">Add</button>
+    <button (click)="addTask(rask.value)">Add</button> -->
+</div>
+<ul *ngFor="let item of list">
+<li>{{item.name}} {{item.URL}}<button class="btn btn-sm btn-danger"(click)="removeTask(item.id)">Delete</button></li>
+
+<!-- <li>{{item.name}}</li>
+<li>{{item.name}}</li>	 -->
+
+
+
+</ul>
+<br>
+<br>
+<a href='view'><button class="btn btn-sm btn-primary" >View</button></a>
